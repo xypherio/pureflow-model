@@ -4,9 +4,9 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 # Load model artifacts
-model = load('water_quality_model.joblib')
+model = load('pureflow_model.joblib')
 scaler = load('feature_scaler.joblib')
-model_info = load('model_info.joblib')
+model_info = load('pureflow_model_info.joblib')
 feature_cols = model_info['feature_cols']
 target_cols = model_info['target_cols']
 
