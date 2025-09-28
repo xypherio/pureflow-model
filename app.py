@@ -6,7 +6,7 @@ from flask_cors import CORS
 # Load model artifacts
 model = load('water_quality_model.joblib')
 scaler = load('feature_scaler.joblib')
-model_info = load('model_info.pkl')
+model_info = load('model_info.joblib')
 feature_cols = model_info['feature_cols']
 target_cols = model_info['target_cols']
 
