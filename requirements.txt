@@ -1,5 +1,4 @@
-flask
-flask-cors
+gradio
 pandas
 joblib
 scikit-learn==1.7.2
